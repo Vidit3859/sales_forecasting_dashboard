@@ -209,6 +209,7 @@ The project is deployed on Streamlit Cloud.
 ## 🤝 Contributing
 
 • Pull requests, suggestions, and forks are welcome!
+
 • Feel free to open an issue if you'd like to improve the dashboard.
 
 
@@ -217,8 +218,8 @@ The project is deployed on Streamlit Cloud.
 ## 📬 Contact
 
 ### Vidit Kumar
-### 📧 Email: vidit.kumar624@gmail.com
-### 🌐 LinkedIn: linkedin.com/in/viditkumar-in
+#### 📧 Email: vidit.kumar624@gmail.com
+#### 🌐 LinkedIn: linkedin.com/in/viditkumar-in
 
 
 ---
