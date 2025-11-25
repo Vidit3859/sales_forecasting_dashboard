@@ -96,7 +96,7 @@ seasonal_order = (1, 1, 1, 52)
 
 ## 🛠️ Tech Stack
 
-### Category	Tools
+### Category	Tools:
 
 • Programming	Python
 
