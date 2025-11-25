@@ -99,12 +99,19 @@ seasonal_order = (1, 1, 1, 52)
 ### Category	Tools
 
 • Programming	Python
+
 • Data Handling	Pandas, NumPy
+
 • Visualization	Matplotlib
+
 • Time-Series Modeling	Statsmodels (SARIMAX)
+
 • Cloud Notebook	Google Colab
+
 • Dashboard	Streamlit
+
 • Deployment	Streamlit Cloud
+
 • Version Control	GitHub
 
 
