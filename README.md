@@ -1,19 +1,19 @@
-📊 AI-Powered Sales Forecasting Dashboard
+# 📊 AI-Powered Sales Forecasting Dashboard
 
-⏳ Time-Series Forecasting • 📉 SARIMA Model • 🌐 Streamlit App • 🛒 Walmart Sales Data
+## ⏳ Time-Series Forecasting • 📉 SARIMA Model • 🌐 Streamlit App • 🛒 Walmart Sales Data
 
 This project predicts future weekly retail sales using real historical data and provides an interactive dashboard built with Streamlit.
 It includes full data preprocessing, sales trend analysis, time-series modeling (SARIMA), forecasting, and deployment.
 
-🔗 Live Demo: https://vidit-ml-forecast.streamlit.app
-🔗 Dataset: Walmart Weekly Sales Dataset (Kaggle)
+### 🔗 Live Demo: https://vidit-ml-forecast.streamlit.app
+### 🔗 Dataset: Walmart Weekly Sales Dataset (Kaggle)
 
 
 ---
 
-🚀 Project Features
+## 🚀 Project Features
 
-✅ 1. Data Processing & Cleaning
+### ✅ 1. Data Processing & Cleaning
 
 • Convert dates to datetime format
 
@@ -24,7 +24,7 @@ It includes full data preprocessing, sales trend analysis, time-series modeling 
 • Aggregate sales by date
 
 
-✅ 2. Data Visualization
+### ✅ 2. Data Visualization
 
 • Line plots of weekly sales
 
@@ -33,7 +33,7 @@ It includes full data preprocessing, sales trend analysis, time-series modeling 
 • Seasonal decomposition (trend, seasonality, residuals)
 
 
-✅ 3. Time-Series Forecasting (Modeling)
+### ✅ 3. Time-Series Forecasting (Modeling)
 
 • SARIMA (1,1,1)(1,1,1,52)
 
@@ -44,7 +44,7 @@ It includes full data preprocessing, sales trend analysis, time-series modeling 
 • MSE, RMSE, MAE metrics
 
 
-✅ 4. Dashboard (Streamlit)
+### ✅ 4. Dashboard (Streamlit)
 
 • Interactive sections include:
 
@@ -60,7 +60,7 @@ It includes full data preprocessing, sales trend analysis, time-series modeling 
 
 ---
 
-🗂️ Project Structure
+## 🗂️ Project Structure
 
 ```md
 sales-forecasting-dashboard/
@@ -75,9 +75,9 @@ sales-forecasting-dashboard/
 
 ---
 
-🧠 Modeling Approach
+## 🧠 Modeling Approach
 
-🟦 SARIMA Model
+### 🟦 SARIMA Model
 
 • I used a Seasonal ARIMA (SARIMAX) model with weekly seasonality (52 weeks).
 Model configuration:
@@ -87,16 +87,16 @@ order = (1, 1, 1)
 seasonal_order = (1, 1, 1, 52)
 ```
 
-📈 Forecast Output
+### 📈 Forecast Output
 
 • The model predicts 12 weeks ahead, generating a clean forecast used in the Streamlit dashboard.
 
 
 ---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-Category	Tools
+### Category	Tools
 
 • Programming	Python
 • Data Handling	Pandas, NumPy
@@ -111,22 +111,22 @@ Category	Tools
 
 ---
 
-▶️ How to Run the Project Locally
+## ▶️ How to Run the Project Locally
 
-1️⃣ Clone the repository
+### 1️⃣ Clone the repository
 
 ```bash
 git clone https://github.com/your-username/sales-forecasting-dashboard.git
 cd sales-forecasting-dashboard
 ```
 
-2️⃣ Install dependencies
+### 2️⃣ Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3️⃣ Run Streamlit
+### 3️⃣ Run Streamlit
 
 ```bash
 streamlit run app.py
@@ -135,11 +135,11 @@ streamlit run app.py
 
 ---
 
-🌐 Deployment (Streamlit Cloud)
+## 🌐 Deployment (Streamlit Cloud)
 
 The project is deployed on Streamlit Cloud.
 
-Key steps:
+### Key steps:
 
 1. Upload project folder to GitHub
 
@@ -163,7 +163,7 @@ Key steps:
 
 ---
 
-📸 Dashboard Preview
+## 📸 Dashboard Preview
 
 ![Dashboard](assets/dashboard.png)
 ![Weekly Sales](assets/weekly_sales.png)
@@ -178,7 +178,7 @@ Key steps:
 
 ---
 
-📉 Results
+## 📉 Results
 
 • The SARIMA model successfully forecasts 12 weeks of sales
 
@@ -192,7 +192,7 @@ Key steps:
 
 ---
 
-⭐ Future Improvements
+## ⭐ Future Improvements
 
 • Add Facebook Prophet / NeuralProphet models
 
@@ -206,7 +206,7 @@ Key steps:
 
 ---
 
-🤝 Contributing
+## 🤝 Contributing
 
 • Pull requests, suggestions, and forks are welcome!
 • Feel free to open an issue if you'd like to improve the dashboard.
@@ -214,11 +214,11 @@ Key steps:
 
 ---
 
-📬 Contact
+## 📬 Contact
 
-Vidit Kumar
-📧 Email: vidit.kumar624@gmail.com
-🌐 LinkedIn: linkedin.com/in/viditkumar-in
+### Vidit Kumar
+### 📧 Email: vidit.kumar624@gmail.com
+### 🌐 LinkedIn: linkedin.com/in/viditkumar-in
 
 
 ---
